@@ -18,12 +18,12 @@ switch to google colab (if you don't have a good PC like me :D) <br />
 8.) %cd /content/yolov5 <br />
 9.) Create and add a yaml file inside data folder of yolov5 cloned repo, so that yolov5 wud be able to find the class images for training. <br />
 
-'''
-train: /content/drive/MyDrive/datasets/OID/Dataset/train/Apple_Orange
-val: /content/drive/MyDrive/datasets/OID/Dataset/val/Apple_Orange
-test: /content/drive/MyDrive/datasets/OID/Dataset/val/Apple_Orange
-nc: 2 # num of classes
-names: ['Apple', 'Orange'] # classes
+'''<br />
+train: /content/drive/MyDrive/datasets/OID/Dataset/train/Apple_Orange <br />
+val: /content/drive/MyDrive/datasets/OID/Dataset/val/Apple_Orange <br />
+test: /content/drive/MyDrive/datasets/OID/Dataset/val/Apple_Orange <br />
+nc: 2 # num of classes <br />
+names: ['Apple', 'Orange'] # classes <br />
 '''<br />
 
 10.) !python train.py --img 416 --batch 16 --epochs 30 --data ./data/my_classes.yaml --cfg ./models/yolov5s.yaml --weights  /content/drive/MyDrive/datasets/OID --name yolov5s_results  --cache --device 0 <br />
