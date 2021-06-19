@@ -1,0 +1,9 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /content/drive/MyDrive/datasets/OID/Dataset/train/Apple_Orange
+val: /content/drive/MyDrive/datasets/OID/Dataset/validation/Apple_Orange
+test: /content/drive/MyDrive/datasets/OID/Dataset/validation/Apple_Orange
+# number of classes
+nc: 2
+
+# class names
+names: ['Apple', 'Orange']
