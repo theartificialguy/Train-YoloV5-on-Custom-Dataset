@@ -16,7 +16,7 @@ switch to google colab (if you don't have a good PC like me :D) <br />
 6.) !git clone https://github.com/ultralytics/yolov5 <br />
 7.) !pip install -U -r yolov5/requirements.txt <br />
 8.) %cd /content/yolov5 <br />
-9.) Create and add a yaml file inside data folder of yolov5 cloned repo, so that yolov5 wud be able to find the class images for training. <br />
+9.) Create and add a yaml file (my_classes.yaml) inside data folder of yolov5 cloned repo, so that yolov5 wud be able to find the class images for training. <br />
 
 '''<br />
 train: /content/drive/MyDrive/datasets/OID/Dataset/train/Apple_Orange <br />
