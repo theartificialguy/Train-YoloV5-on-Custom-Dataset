@@ -5,7 +5,7 @@ image dataset website link:- https://storage.googleapis.com/openimages/web/visua
 
 steps invovled:-
 
-1.) git clone https://github.com/EscVM/OIDv4_ToolKit.git <br />
+1.) git clone https://github.com/yash-007/Train-YoloV5-on-Custom-Dataset.git <br />
 2.) pip3 install -r requirements.txt <br />
 3.) python main.py downloader --classes Apple Orange --type_csv train --limit 5000 --multiclasses 1 <br />
 4.) edit classes text file <br />
